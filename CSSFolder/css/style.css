@@ -1,0 +1,46 @@
+/* some css */
+
+body {
+  /* browser loads first and then next, etc. */
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #ffffcc; */
+  background: lightblue url(../../HTMLFolder/images/resized.jpeg) no-repeat left top;
+}
+
+img {
+  border: 10px solid green;
+}
+
+h1 {
+  border: 5px dotted red;
+}
+
+blockquote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: center;
+  /* actually 48px or 3 * 16 */
+}
+
+cite {
+  font-size: .5em;
+  /* relative to blockquote */
+}
+
+.bigBold {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.openingParagraph{
+  line-height: 1.3rem;
+}
+
+ol li {
+  text-decoration: underline;
+}
+
+ul a {
+  text-decoration: none;
+}
